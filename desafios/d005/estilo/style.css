@@ -23,6 +23,11 @@
     --fonte-android:'Android', cursiva;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
@@ -30,4 +35,33 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+}
+
+header > h1 {
+    color: var(--cor6);
+}
+
+header > p {
+    color: var(--cor6);
+}
+
+nav {
+    background-color: var(--cor4);
+}
+
+main {
+    background-color: var(--cor6);
+}
+
+main h1 {
+    color: var(--cor4);
+}
+
+main h2 {
+    color: var(--cor4);
+}
+
+footer {
+    background-color: var(--cor4);
+    color: var(--cor6);
 }
