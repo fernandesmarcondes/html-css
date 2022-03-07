@@ -27,3 +27,11 @@ body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
+
+header {
+    background-color: var(--cor4);
+}
+
+header > h1 {
+    color: var(--cor6);
+}
