@@ -51,6 +51,7 @@ nav {
 
 main {
     background-color: var(--cor6);
+    padding: 20px;
 }
 
 main h1 {
