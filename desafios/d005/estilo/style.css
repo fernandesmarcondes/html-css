@@ -29,9 +29,5 @@ body {
 }
 
 header {
-    background-color: var(--cor4);
-}
-
-header > h1 {
-    color: var(--cor6);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
 }
