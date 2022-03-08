@@ -142,7 +142,56 @@ main a:hover {
     text-decoration: underline;
 }
 
+div.video {
+    background-color: var(--cor4);
+    margin: 0px -15px 30px -15px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+ 
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 85%;
+}
+aside {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.426);
+}
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: var(--cor6);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type:'\2714\00A0' ;
+}
+
 footer {
     background-color: var(--cor4);
     color: var(--cor6);
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: var(--cor6);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
 }
