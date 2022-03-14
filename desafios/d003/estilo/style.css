@@ -89,10 +89,15 @@ main {
 
 main h1 {
     color: var(--cor3);
+    font-family: var(--fonte-android);
 }
 
 main h2 {
-    color: var(--cor5);
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    background-image: linear-gradient(to right, var(--cor2),transparent);
+    text-indent: 8px;
+    font-weight: normal;
 }
 
 main p {
@@ -110,6 +115,24 @@ main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+main strong {
+    color: var(--cor2);
+}
+
+main a {
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--cor2);
+    padding: 2px;
+}
+
+main a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
+
 }
 
 footer {
