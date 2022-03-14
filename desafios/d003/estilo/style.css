@@ -32,18 +32,47 @@ body {
 
 header {
     background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
 }
 
 header > h1 {
     color: var(--cor6);
+    font-family: var(--fonte-padrao);
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 3em;
 }
 
 header > p {
     color: var(--cor6);
+    font-family: var(--fonte-padrao);
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.426);
 }
 
 nav {
     background-color: var(--cor4);
+    padding: 10px;
+}
+
+nav > a {
+    color: var(--cor2);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    color: var(--cor5);
+    background-color: var(--cor2);
 }
 
 main {
@@ -64,6 +93,23 @@ main h1 {
 
 main h2 {
     color: var(--cor5);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.8em;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
 
 footer {
