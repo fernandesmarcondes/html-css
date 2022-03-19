@@ -19,3 +19,45 @@
     --fonte-android:'Android', cursive;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-color: var(--cor4);
+}
+
+header > h1 {
+    color: var(--cor6);
+    font-family: var(--fonte-destaque);
+}
+
+header > p {
+    color: var(--cor6);
+}
+
+nav {
+    background-color: var(--cor4);
+}
+
+main {
+    background-color: var(--cor6);
+}
+
+main h1 {
+    color: var(--cor3);
+}
+
+main h2 {
+    color: var(--cor4);
+}
+
+footer {
+    background-color: var(--cor4);
+    color: var(--cor6);
+}
